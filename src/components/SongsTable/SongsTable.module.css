@@ -1,0 +1,68 @@
+/* .song-table {
+  width: 100%;
+  background-color: red;
+}
+
+table thead tr th {
+   
+} */
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.songTable {
+	margin-top: 20px;
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th {
+	text-transform: uppercase;
+}
+
+td {
+	font-weight: 300;
+}
+
+th,
+td {
+	/* border: 1px solid #dddddd; */
+	text-align: left;
+	padding: 12px;
+	width: 500px;
+	height: 45px;
+}
+
+tr {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.playBtn {
+	font-size: 28px;
+}
+
+.actionBtns {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+}
+
+.songInfo {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.songImage {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.songInfo > span {
+	font-weight: 300;
+}

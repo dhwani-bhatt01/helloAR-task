@@ -1,0 +1,38 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.main {
+  height: 100%;
+  width: 80%;
+}
+
+.mainHeader {
+  font-weight: 300;
+  color: #888787;
+  padding: 16px 32px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.current {
+  color: black;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subHeader h1 {
+  font-size: 22px;
+  color: #000;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

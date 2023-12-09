@@ -1,0 +1,29 @@
+.fullScreenWrapper {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.signInContainer {
+	width: 100%;
+	padding: 16px;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+h1 {
+	color: #552583;
+	font-size: 38px;
+	font-weight: 400;
+}
+
+p {
+	text-align: left;
+	font-weight: 300;
+	font-size: 14px;
+	color: #101920;
+}

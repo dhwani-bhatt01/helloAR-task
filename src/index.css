@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --primary-color: #552583;
+  --blue-color: #1890ff;
+  --light-blue-color: #e6f7ff;
+
+  /* used to override default styles of react-international-phone-input */
+  --react-international-phone-height: 50px;
+  --react-international-phone-border-radius: 8px;
+}
+.react-international-phone-input-container {
+  width: 100%;
+}

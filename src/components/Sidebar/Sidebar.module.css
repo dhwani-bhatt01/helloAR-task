@@ -1,0 +1,39 @@
+.sidebarContainer {
+	background-color: white;
+	height: 100%;
+	width: 20%;
+	border-right: 1px solid #e0e0e0;
+	position: relative;
+}
+
+.logo {
+	line-height: 100px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	color: var(--primary-color);
+}
+
+.menuItem {
+	cursor: pointer;
+	padding: 14px 22px;
+	background-color: var(--light-blue-color);
+	border-right: 5px solid var(--blue-color);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: var(--blue-color);
+	font-weight: 400;
+}
+
+.logoutBtn {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	cursor: pointer;
+	padding: 14px 22px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 400;
+}
